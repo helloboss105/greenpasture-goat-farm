@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - GreenPasture Goat Farm</title>
+    <meta name="description" content="Get in touch with GreenPasture Goat Farm. Contact us for product orders, farm tours, or any inquiries about our premium goat products.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">GreenPasture Farm</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for orders, inquiries, or farm visits</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>We'd love to hear from you! Whether you're interested in our products, want to schedule a farm tour, or have any questions about our sustainable farming practices, don't hesitate to reach out.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                <h4>Visit Us</h4>
+                                <p>Green Valley, Rural District<br>State, Country - 123456</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-text">
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-text">
+                                <h4>Email Us</h4>
+                                <p>info@greenpasturefarm.com<br>orders@greenpasturefarm.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div class="contact-text">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Saturday: 7:00 AM - 6:00 PM<br>Sunday: 8:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-contact">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">Facebook</a>
+                            <a href="#" class="social-link">Instagram</a>
+                            <a href="#" class="social-link">YouTube</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name *</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                                <div id="nameError" class="error-message" style="display: none;"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                                <div id="emailError" class="error-message" style="display: none;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" required>
+                                <div id="phoneError" class="error-message" style="display: none;"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <select id="subject" name="subject" class="form-input">
+                                    <option value="">Select a subject</option>
+                                    <option value="product-inquiry">Product Inquiry</option>
+                                    <option value="order">Place Order</option>
+                                    <option value="farm-tour">Farm Tour</option>
+                                    <option value="consultation">Consultation</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="6" placeholder="Tell us about your inquiry, order details, or any questions you have..." required></textarea>
+                            <div id="messageError" class="error-message" style="display: none;"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                Subscribe to our newsletter for farm updates and special offers
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Us</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <img src="https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=400&dpr=1" alt="GreenPasture Farm Location Map" loading="lazy">
+                    <div class="map-overlay">
+                        <h4>GreenPasture Farm</h4>
+                        <p>Green Valley, Rural District</p>
+                        <a href="#" class="btn btn-outline">Get Directions</a>
+                    </div>
+                </div>
+            </div>
+            <div class="location-info">
+                <div class="location-details">
+                    <h4>Directions</h4>
+                    <p>Located in the heart of Green Valley, our farm is easily accessible by car. Take Highway 123 and exit at Green Valley Road. Follow the signs for approximately 5 miles until you see our farm entrance on the right.</p>
+                </div>
+                <div class="location-details">
+                    <h4>Parking</h4>
+                    <p>Free parking is available on-site for all visitors. We have designated areas for cars, buses, and larger vehicles for group visits.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>How can I place an order?</h4>
+                    <p>You can place an order by calling us, sending an email, or filling out the contact form above. We'll get back to you with availability and pricing information.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Do you offer farm tours?</h4>
+                    <p>Yes! We offer guided farm tours by appointment. Tours are available for individuals, families, schools, and groups. Contact us to schedule your visit.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What are your delivery options?</h4>
+                    <p>We offer local delivery within a 50-mile radius. For customers outside this area, we can arrange special shipping for certain products. Contact us for details.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Are your products organic?</h4>
+                    <p>Yes, all our products are produced using organic and sustainable farming practices. Our goats are fed natural feed and graze on pesticide-free pastures.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I visit the farm without an appointment?</h4>
+                    <p>While we welcome visitors, we recommend scheduling an appointment to ensure someone is available to show you around and answer your questions.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Do you offer bulk pricing?</h4>
+                    <p>Yes, we offer competitive pricing for bulk orders. Contact us with your requirements, and we'll provide a customized quote.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GreenPasture Farm</h3>
+                    <p>Premium goat farming with sustainable practices and traditional care for over 15 years.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Green Valley, Rural District<br>State, Country - 123456</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Email: info@greenpasturefarm.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GreenPasture Farm. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
