@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - GreenPasture Goat Farm</title>
+    <meta name="description" content="Explore our gallery showcasing our beautiful goats, modern facilities, and sustainable farming practices at GreenPasture Farm.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">GreenPasture Farm</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Farm Gallery</h1>
+            <p>Take a visual journey through our sustainable goat farm</p>
+        </div>
+    </section>
+
+    <!-- Gallery Categories -->
+    <section class="gallery-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="goats">Our Goats</button>
+                <button class="filter-btn" data-filter="facilities">Facilities</button>
+                <button class="filter-btn" data-filter="products">Products</button>
+                <button class="filter-btn" data-filter="farm">Farm Life</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid-section">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Goats Category -->
+                <div class="gallery-item" data-category="goats">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Healthy goats grazing in green pasture" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Happy Goats Grazing</h4>
+                            <p>Our goats enjoying fresh pasture grass</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="goats">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Goat mother with kids" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Mother and Kids</h4>
+                            <p>Nurturing care in natural environment</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="goats">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Premium breed goats" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Premium Breeds</h4>
+                            <p>Carefully selected high-quality goats</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="goats">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Goats in shelter" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Comfortable Shelter</h4>
+                            <p>Modern shelters for weather protection</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Facilities Category -->
+                <div class="gallery-item" data-category="facilities">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Modern milking facility" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Milking Facility</h4>
+                            <p>State-of-the-art hygienic milking setup</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="facilities">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Feed storage facility" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Feed Storage</h4>
+                            <p>Climate-controlled feed storage areas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="facilities">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Veterinary care facility" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Veterinary Care</h4>
+                            <p>On-site medical care facilities</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="facilities">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Processing facility" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Processing Unit</h4>
+                            <p>Clean processing and packaging area</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products Category -->
+                <div class="gallery-item" data-category="products">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Fresh goat milk bottles" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Fresh Goat Milk</h4>
+                            <p>Daily fresh milk in glass bottles</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="products">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1435735/pexels-photo-1435735.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Pure goat ghee" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Pure Goat Ghee</h4>
+                            <p>Traditional ghee in glass jars</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="products">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Organic manure bags" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Organic Manure</h4>
+                            <p>Premium quality organic fertilizer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="products">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1435735/pexels-photo-1435735.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Product packaging" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Quality Packaging</h4>
+                            <p>Eco-friendly product packaging</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Farm Life Category -->
+                <div class="gallery-item" data-category="farm">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Farm landscape" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Farm Landscape</h4>
+                            <p>60 acres of lush green pastures</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="farm">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Farm workers caring for goats" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Dedicated Care</h4>
+                            <p>Our team providing excellent animal care</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="farm">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Sustainable farming practices" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Sustainable Practices</h4>
+                            <p>Eco-friendly farming methods</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="farm">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Farm visitors" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Farm Tours</h4>
+                            <p>Educational visits for families</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="farm">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Award ceremony" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Awards & Recognition</h4>
+                            <p>Celebrating our achievements</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="farm">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Team meeting" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Team Collaboration</h4>
+                            <p>Planning for continuous improvement</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Us Section -->
+    <section class="visit-us">
+        <div class="container">
+            <div class="visit-content">
+                <h2>Visit Our Farm</h2>
+                <p>Experience our sustainable farming practices firsthand. We offer guided tours for families, schools, and agricultural enthusiasts. Learn about goat care, sustainable farming, and see our facilities in action.</p>
+                
+                <div class="visit-info">
+                    <div class="visit-item">
+                        <h4>Farm Tours</h4>
+                        <p>Educational guided tours available by appointment</p>
+                    </div>
+                    <div class="visit-item">
+                        <h4>School Programs</h4>
+                        <p>Special educational programs for students</p>
+                    </div>
+                    <div class="visit-item">
+                        <h4>Group Visits</h4>
+                        <p>Customized tours for agricultural groups</p>
+                    </div>
+                </div>
+                
+                <a href="contact.html" class="btn btn-primary">Book a Tour</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GreenPasture Farm</h3>
+                    <p>Premium goat farming with sustainable practices and traditional care for over 15 years.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Green Valley, Rural District<br>State, Country - 123456</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Email: info@greenpasturefarm.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GreenPasture Farm. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Gallery Filter Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter gallery items
+                    galleryItems.forEach(item => {
+                        const category = item.getAttribute('data-category');
+                        
+                        if (filter === 'all' || category === filter) {
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'scale(1)';
+                            }, 10);
+                        } else {
+                            item.style.opacity = '0';
+                            item.style.transform = 'scale(0.8)';
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
